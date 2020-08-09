@@ -1,6 +1,6 @@
 # CLIDrag
 
-This is a CLI tool that simulates dragging files into GUI applications.
+This is a CLI tool that simulates dragging files into GUI applications. Comes with a C++ and a Python version.
 
 ## Demo
 
@@ -10,11 +10,15 @@ This is a CLI tool that simulates dragging files into GUI applications.
 
 I'm primarily a Linux command line user who rarely use GUI file managers. When I want to send a file through Discord or something similar, I either have to a) open Nautilus, find the file and drag it over, or b) use the file picker and dig through my files. Using this tool, you can just start a drag from the CLI and send the file(s) to your desired GUI application.
 
-## Dependencies
+## C++ version dependencies
 
 This depends on Qt5, which should hopefully be on most distros by default.
 
-## Compilation
+## Python version dependencies
+
+This depends on PyQt5. You may have to `pip install` it or use your favorite package manager.
+
+## C++ version compilation
 
 You'll need qmake and g++ to compile this program. A Dockerfile is provided, and I used the following command in the git directory to build the program:
 
